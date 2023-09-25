@@ -1,0 +1,528 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Mukta&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Mukta&family=Noto+Sans+Cypro+Minoan&display=swap" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+    <link href="css/reglas.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/galeria.css" rel="stylesheet">
+    <link rel="icon" href="portfolio.png">
+    <title>Joeth's Portfolio</title>
+</head>
+
+<body>
+    <!--loader-->
+    <div id="preloader" class="img-fluid   pt-5 container-fluid">
+        <div class="under text-center">
+            <div class="spinner-border text-info " role="status">
+                <span class="visually-hidden"></span>
+            </div>
+            <h2 class="message text-info">Loading...</h2>
+        </div>
+    </div>
+    
+    <!-- carga del plugin JS animado -->
+    
+    
+    <main id="particles-js" class="container-fluid">
+        
+        <div  class="container-fluid  contenido">
+            <div class="text-left  container-fluid mt-3 ms-3  slideInLeft" data-wow-duration="1000ms">
+                <a class=" text-white " id="r1" onclick="r1" style="cursor: pointer;"role="button"><i class="fas fa-info-circle fa-3x"></i></a>
+            </div>    
+            <div class="pt-5 pb-5 text-center">
+                <h1 style="font-family:'Dancing Script', cursive;">
+                    My Professional Profile
+                </h1>
+            </div>
+            <div class="tab d-flex justify-content-center w-75 mx-auto shadow rounded fw-bold">
+                
+                <ul class="nav nav-tabs fs-1 fw-bolder" id="myTab" role="tablist">
+                    <li class="nav-item" role="tab">
+                        <button class="tablinks" onclick="opciones(event,'home')">Home</button>
+                    </li>
+                    <li class="nav-item" role="tab">
+                        <button class="tablinks" onclick="opciones(event,'work')">Work</button>
+                    </li>
+                    <li class="nav-item" role="tab">
+                        <button class="tablinks"  onclick="opciones(event,'about')">About</button>
+                    </li>
+                </ul>
+                          
+            </div>
+            <!-- cierre del contenedor -->
+            <!-- contenido de las pestañas -->
+                
+            <div id="home" class="tabcontent w-75 mx-auto shadow rounded border border-top-0 mb-5">
+                <div class="mx-auto text-center pt-3 pb-3">
+                    <h4>
+                        <strong>Author:</strong> Joeth Peralta Carrillo
+                    </h4>
+                </div>
+                <div class="text-center">
+                    <p class="lead">
+                        I'm a Full-time Front-End Developer, dedicated to Web Development and Design.
+                    </p>
+                </div>
+                <div>
+                    <lottie-player src="https://lottie.host/8740d12b-bf55-43be-8033-02e5a57a9fd1/IwsgHXjM6l.json" background="transparent" speed="1" style="width: 25%; height: 25%;" class="mx-auto" loop autoplay></lottie-player>
+                </div>
+                <hr style="background-color: #fff;">
+                <figure class="text-center pt-3 pb-3">
+                    <blockquote class="blockquote fst-italic">
+                      <p>"Success is the sum of small efforts, repeated day in and day out.”</p>
+                    </blockquote>
+                    <figcaption class="blockquote-footer text-white">
+                        Robert Collier in <cite title="Source Title">The Secret of the Ages</cite>
+                    </figcaption>
+                </figure>
+            </div>
+                
+            <div id="work" class="tabcontent w-75 mx-auto shadow rounded border border-top-0 mb-5">
+                <section class="row" style="margin: 20px; padding-top: 90px; padding-bottom: 60px;">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3" style="margin-bottom: 20px;">
+                                <div class="card h-100  border-light shadow-lg ">
+                                    <img src="./imagenes/IPEC.JPG" class="card-img-top img-fluid img-thumbnail rounded" alt="IPEC Barva High School Heredia, Costa Rica">
+                                    <h4 class="card-header text-dark text-left">IPEC Barva School</h4>
+                                    <div class="card-body text-dark" style="display: grid;">
+                                      
+                                      <p class="card-text">
+                                        <ul class="text-left">
+                                            <li class="text-muted">Re-design of a real High School Website</li>
+                                            <li class="text-muted">Framework: Bootstrap</li>
+                                            <li class="text-muted">Javascript</li>
+                                            <li class="text-muted">CSS</li>
+                                            <li class="text-muted">Font-Awesome</li>
+                                            <li class="text-muted">Style: One Page</li>
+                                        </ul>
+                                      </p>
+                                        <div class="btn-toolbar mx-auto" role="toolbar" aria-label="Toolbar with button groups">
+                                            <div class="btn-group col-6 " role="group" aria-label="First group">
+                                                <div class="text-center mb-2">
+                                                    <a href="./Rediseño del Instituto IPEC Barva/indexIPEC.html" class="btn btn-info text-white btn-lg shadow" target="blank">MyWebsite</a>
+                                                </div>
+                                            </div>
+                                            <div class="btn-group col-6" role="group" aria-label="Second group">
+                                                <div class="text-center">
+                                                    <a href="https://www.ipec-barva.com/" class="btn btn-info text-white btn-lg shadow" target="blank">Original</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3" style="margin-bottom: 20px;">
+                                <div class="card h-100 border-light shadow-lg ">
+                                    <img src="./imagenes/CardGame.JPG" class="card-img-top img-fluid img-thumbnail rounded" alt="Memory Card Game">
+                                    <h4 class="card-header text-dark text-left">Memory Game</h4>
+                                    <div class="card-body text-dark"style="display: grid;">
+                                      
+                                      <p class="card-text">
+                                        <ul class="text-left">
+                                            <li class="text-muted">Javascript Object Oriented Programming</li>
+                                            <li class="text-muted">CSS</li>
+                                            <li class="text-muted">Style: Game</li>
+                                        </ul>
+                                      </p>
+                                      <div class="container" >
+                                        <div class="text-center" style="align-self: flex-end !important;">
+                                            <div class="mx-auto">
+                                                <div class="text-center">
+                                                    <a href="./Memory Game Final/indexCardGame.html" class="btn btn-info text-white btn-lg shadow" target="blank">Go to Website</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3" style="margin-bottom: 20px;">
+                                <div class="card h-100 border-light shadow-lg " >
+                                    <img src="./imagenes/Dunamis.JPG" class="card-img-top img-fluid img-thumbnail rounded" alt="Dunamis Recording Studio">
+                                    <h4 class="card-header text-dark text-left">Dunamis Studio</h4>
+                                    <div class="card-body text-dark"style="display: grid;">
+                                      
+                                      <p class="card-text">
+                                        <ul class="text-left">
+                                            <li class="text-muted">Framework:Bootstrap</li>
+                                            <li class="text-muted">CSS</li>
+                                            <li class="text-muted">Font-Awesome</li>
+                                            <li class="text-muted">Style: Landing & Full-Page</li>
+                                        </ul>
+                                      </p>
+                                      <div class="container">
+                                        <div class="text-center">
+                                            <div class="mx-auto">
+                                                <div class="text-center">
+                                                    <a href="./Productora Musical/indexDunamis.html" class="btn btn-info text-white btn-lg shadow" target="blank">Go to Website</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3"style="margin-bottom: 20px;">
+                                <div class="card h-100 border-light shadow-lg ">
+                                    <img src="./imagenes/Beatifully Baked.JPG" class="card-img-top img-fluid img-thumbnail rounded" alt="Beautifully Baked Bakery">
+                                    <h4 class="card-header text-dark text-left">Beautifully Baked</h4>
+                                    <div class="card-body text-dark"style="display: grid;">
+                                      
+                                      <p class="card-text">
+                                        <ul class="text-left">
+                                            <li class="text-muted">Framework: Bootstrap</li>
+                                            <li class="text-muted">Javascript</li>
+                                            <li class="text-muted">CSS</li>
+                                            <li class="text-muted">Font-Awesome</li>
+                                            <li class="text-muted">Style: One Page</li>
+                                        </ul>
+                                      </p>
+                                      <div class="container">
+                                        <div class="text-center">
+                                            <div class="mx-auto">
+                                                <div class="text-center">
+                                                    <a href="./Beatifully Baked/index2.html" class="btn btn-info text-white btn-lg shadow" target="blank">Go to Website</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3"style="margin-bottom: 20px;">
+                                <div class="card h-100 border-light shadow-lg ">
+                                    <img src="./imagenes/Beehive.JPG" class="card-img-top img-fluid img-thumbnail rounded" alt="Beehive Project Social Network">
+                                    <h4 class="card-header text-dark text-left">Beehive Project</h4>
+                                    <div class="card-body text-dark"style="display: grid;">
+                                      
+                                      <p class="card-text">
+                                        <ul class="text-left">
+                                            <li class="text-muted">Javascript Object Oriented</li>
+                                            <li class="text-muted">CSS</li>
+                                            <li class="text-muted">Style: Social Network</li>
+                                        </ul>
+                                      </p>
+                                      <div class="container">
+                                        <div class="text-center">
+                                            <div class="mx-auto">
+                                                <div class="text-center">
+                                                    <a href="./BeehiveProject-main/index.html" class="btn btn-info text-white btn-lg shadow" target="blank">Go to Website</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3"style="margin-bottom: 20px;">
+                                <div class="card h-100 border-light shadow-lg ">
+                                    <img src="./imagenes/Centrex.JPG" class="card-img-top img-fluid img-thumbnail rounded" alt="Centrex Multicinemas Homepage">
+                                    <h4 class="card-header text-dark text-left">Centrex Cinemas</h4>
+                                    <div class="card-body text-dark"style="display: grid;">
+                                      
+                                      <p class="card-text">
+                                        <ul class="text-left">
+                                            <li class="text-muted">HTML: No Framework </li>
+                                            <li class="text-muted">Postman API Repository</li>
+                                            <li class="text-muted">Javascript </li>
+                                            <li class="text-muted">CSS</li>
+                                            <li class="text-muted">Style: Full-Page</li>
+                                        </ul>
+                                      </p>
+                                      <div class="container">
+                                        <div class="text-center">
+                                            <div class="mx-auto">
+                                                <div class="text-center">
+                                                    <a href="./Centrex Multicinemas/public/HTML/index.html" class="btn btn-info text-white btn-lg shadow" target="blank">Go to Website</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3"style="margin-bottom: 20px;">
+                                <div class="card h-100 border-light shadow-lg ">
+                                    <img src="./imagenes/Fiobrunch.JPG" class="card-img-top img-fluid img-thumbnail rounded" alt="FioBrunch Restaurant">
+                                    <h4 class="card-header text-dark text-left">FioBrunch</h4>
+                                    <div class="card-body text-dark"style="display: grid;">
+                                      
+                                      <p class="card-text">
+                                        <ul class="text-left">
+                                            <li class="text-muted">Framework:Bootstrap</li>
+                                            <li class="text-muted">CSS</li>
+                                            <li class="text-muted">Font-Awesome</li>
+                                            <li class="text-muted">Style: Full-Page</li>
+                                        </ul>
+                                      </p>
+                                      <div class="container">
+                                        <div class="text-center">
+                                            <div class="mx-auto">
+                                                <div class="text-center">
+                                                    <a href="./FioBrunch/index.html" class="btn btn-info text-white btn-lg shadow" target="blank">Go to Website</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3"style="margin-bottom: 20px;">
+                                <div class="card h-100 border-light shadow-lg ">
+                                    <img src="./imagenes/Telecommunications.JPG" class="card-img-top img-fluid img-thumbnail rounded" alt="TeleCompany Image">
+                                    <h4 class="card-header text-dark text-left">TeleCompany</h4>
+                                    <div class="card-body text-dark"style="display: grid;">
+                                      
+                                      <p class="card-text">
+                                        <ul class="text-left">
+                                            <li class="text-muted">Framework:Bootstrap</li>
+                                            <li class="text-muted">CSS</li>
+                                            <li class="text-muted">Javascript (WOW Animation)</li>
+                                            <li class="text-muted">Style: One Page</li>
+                                        </ul>
+                                      </p>
+                                      <div class="container">
+                                        <div class="text-center">
+                                            <div class="mx-auto">
+                                                <div class="text-center">
+                                                    <a href="./Telecommunications WOW/index.html" class="btn btn-info text-white btn-lg shadow" target="blank">Go to Website</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-12 col-lg-12">
+                                <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                                    <div class="carousel-indicators">
+                                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                    </div>
+                                    <div class="carousel-inner">
+                                      <div class="carousel-item " data-bs-interval="10000">
+                                        <img src="./imagenes/GIF-examen.gif" class="d-block w-100" alt="...">
+                                        <div class="carousel-caption d-none d-md-block">
+                                          <h5>First slide label</h5>
+                                          <p>Some representative placeholder content for the first slide.</p>
+                                        </div>
+                                      </div>
+                                      <div class="carousel-item active" data-bs-interval="2000">
+                                        <img src="./imagenes/estatua texturizada.png" class="d-block w-100 img-responsive" alt="...">
+                                        <div class="carousel-caption d-none d-md-block">
+                                          <h5>Second slide label</h5>
+                                          <p>Some representative placeholder content for the second slide.</p>
+                                        </div>
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img src="./imagenes/countdown.gif" class="d-block w-100" alt="...">
+                                        <div class="carousel-caption d-none d-md-block">
+                                          <h5>Third slide label</h5>
+                                          <p>Some representative placeholder content for the third slide.</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                      <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                      <span class="visually-hidden">Next</span>
+                                    </button>
+                                  </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                
+                </section>      
+            </div>
+            <div id="about" class="tabcontent w-75 mx-auto shadow rounded border border-top-0 mb-5">
+                <div class="container-fluid text-dark mx-auto">
+                    <div class="card m-5 bg-light">
+                        <div class="row g-0">
+                          <div class="col-md-12 mt-5 mb-5 col-sm-12 col-lg-4">
+                            <img src="./imagenes/profilepic.jpg" class="img-fluid rounded-start img-thumbnail rounded ms-3" alt="Joeth Peralta Profile Picture">
+                          </div>
+                          <div class="col-md-12 col-sm-12 col-lg-8">
+                            <div class="card-body h-50 overflow-auto text-center" style="border: 1px solid #eaeaea; background-color: #fff; margin: 10px;">
+                              <h2 class="card-title text-info">Professional Review</h2>
+                              <p class="card-text text-muted" style="line-height: 2; font-size: 1.2rem; padding: 15px;">Highly motivated individual looking for a position to develop and grow professionally. Proven abilities to adapt to fast-paced work environments with strong analytical and problem solving skills. Excellent communicator (both written and oral) with the ability to train and develop colleagues. Detailed oriented with the ability to prioritize tasks in order to meet deadlines. Self-starter individual, able to identify corrective actions, in order to provide genuine commitment to customers.</p>
+                            </div>
+                            <hr>
+                            <div class="h-35 w-50 overflow-auto text-center mx-auto" style="border: 1px solid #eaeaea; background-color: #fff; margin: 15px; padding: 10px 20px 10px 20px;">
+                                <ul class="text-muted list">
+                                    <li>Microsoft Office</li>
+                                    <li>Python</li>
+                                    <li>Photoshop & Gimp</li>
+                                    <li>Microsoft T-SQL</li>
+                                    <li>Node.js & MongoDB</li>
+                                    <li>Trilingual: EN, SP, PT</li>
+                                </ul>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="bg-light bg-gradient row m-5 p-5 responsive" style="grid-column-gap: 20px; border-radius: .25rem;">
+                        <!--EDUCATION STARTS-->
+                        <section class="col">
+                            <header class="text-info pb-3">
+                                <h2>Education</h2>
+                            </header>
+                            <div class="contents text-left">
+                                <div class="box">
+                                    <h4>2014</h4>
+                                    <h3><strong>English Immersion System</strong></h3>
+                                    <p class="text-muted"> Ulacit University, Intense English course of 9 months.</p>
+                                </div>
+                                <div class="box">
+                                    <h4>2018</h4>
+                                    <h3><strong>IT Essentials</strong></h3>
+                                    <p class="text-muted"> UNA (National University of Costa Rica) Study of Hardware and Software of Computers, and it's maintenance.  </p>
+                                </div>
+                                <div class="box">
+                                    <h4>2019</h4>
+                                    <h3><strong>Software Security</strong></h3>
+                                    <p class="text-muted"> Maryland University, remote course through the Coursera platform, security guidelines in the validation and storage of data. </p>
+                                </div>
+                                <div class="box">
+                                    <h4>2020</h4>
+                                    <h3><strong>Portuguese Intensive Course</strong></h3>
+                                    <p class="text-muted"> CEB (Centro de Estudios Brasileños) Portuguese Course for 1 year and 6 months. </p>
+                                </div>
+                                <div class="box">
+                                    <h4>2021</h4>
+                                    <h3><strong>Technical Web Design and Development</strong></h3>
+                                    <p class="text-muted"> Cenfotec University, Front-End Developer career. </p>
+                                    <a class="btn btn-info text-white btn-lg shadow" href="https://www.credly.com/go/wnRLGpChX6ifb11VK67OKQ" role="button" target="_blank">Certificate</a>
+                                </div>
+                            </div>
+                        </section>
+                        <!--EDUCATION ENDS-->
+                        <!--EXPERIENCE STARTS-->
+                        <section class="col">
+                            <header class="text-info pb-3">
+                                <h2>Experience</h2>
+                            </header>
+                            <div class="contents text-left">
+                                <div class="box">
+                                    <h4>October 2014 - February 2015</h4>
+                                    <h3><strong>Tech Support Agent</strong></h3>
+                                    <p> <strong>Company:</strong> Convergys</p>
+                                    <p> <strong>Customer:</strong> Verizon</p>
+                                    <ul class="text-muted">
+                                        <li>Provided solutions to customer's technical issues regarding internet, phone and video signal services by identifying problems, researching answers and guiding the customer through corrective measures.</li>
+                                        <li>Relied heavily on extensive database containing sensitive and confidential customer information.</li>
+                                    </ul>
+                                </div>
+                                <div class="box">
+                                    <h4>February 2015 - April 2020</h4>
+                                    <h3><strong>Senior Data Analyst (SME)</strong></h3>
+                                    <p> <strong>Company: </strong> Dialogue Direct </p>
+                                    <p> <strong>Customer: </strong>  LSG Sky Chefs </p>
+                                    <ul class="text-muted">
+                                        <li>Obtain understanding of customer's requirements and developed specifications to provide real time information and data to operational departments.</li>
+                                        <li>Gain full knowledge of customer's menus and in-flight services to support changes and update customer's internal systems.</li>
+                                        <li>Operate internal databases, customer websites, manuals and customer's systems in order to proactively resolve issues. </li>
+                                        <li>Train and develop colleagues, in order to delegate duties within the departmental team.</li>
+                                        <li>Support and organize tasks and workload, floor support, interact with customers and users around USA, Europe and South America.</li>
+                                        
+                                    </ul>
+                                </div>
+                                <div class="box">
+                                    <h4>April 2020 - May 2023</h4>
+                                    <h3><strong>ERC HR Assistant, Sr Admin Portuguese</strong></h3>
+                                    <p> <strong>Company: </strong> Amazon</p>
+                                    <ul class="text-muted">
+                                        <li> 
+                                            Encourage self-service tools available for all Employees. 
+                                        </li>
+                                        <li>
+                                            Work one-on-one with employees while maintaining successful partnerships with HR Business Partners, Benefits, Stocks, Payroll, Talent Management and Operations partners to find the solution for the employee's issues.
+                                        </li>
+                                        <li>
+                                            Take escalations related to payment, benefits, medical leaves, employment certifications.
+                                        </li>
+                                        <li>
+                                            Provide assistance to the HR population within Amazon Corporate and Facilities across LATAM and Canada.
+                                        </li>
+                                    </ul>
+                                </div>
+                                
+                            </div>
+                        </section>
+                        <!--EXPERIENCE ENDS-->
+                    </div>
+                </div>
+                <div class="text-center mb-3">
+                    <div class="espacio animacion1 wow tada" data-wow-delay="2000ms">
+                        <a href="https://www.facebook.com/joeth.peraltacarrillo" target="blank1" aria-label="Facebook Account to know more about myself">
+                            <i class="fab fa-facebook fa-4x" style="color:#fff"></i>
+                        </a>
+                    </div>
+                    <div class="espacio animacion2 wow tada" data-wow-delay="2500ms">
+                        <a href="https://www.linkedin.com/in/joeth-peralta-246937121" target="blank2" aria-label="Visit my LinkedIn Professional account">
+                            <i class="fab fa-linkedin fa-4x" style="color:#fff"></i>
+                        </a>
+                    </div>
+                    <div class="espacio animacion3 wow tada" data-wow-delay="3000ms">
+                        <a href="https://github.com/jperaltac12" target="blank3" aria-label="Visit my repository in GitHub app">
+                            <i class="fab fa-github fa-4x" style="color:#fff"></i>
+                        </a>
+                    </div>      
+                </div>
+            </div>
+        </div>
+        <!--Alert--> 
+        <div class="alert alert-success mx-auto d-flex alert-dismissible fade show fs-4 hide" role="alert" id="alert">
+            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512" class="me-2"><style>svg{fill:#155724}</style><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/></svg>
+            
+            <p><strong>Welcome </strong>  to my Professional Portfolio, thank you for visiting!</p>
+            
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+        <!--Alert Ends--> 
+    </main>
+    
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+    <script src="js/wow.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script> 
+
+
+    <!--CARGA DE ANIMACION VENTANA DESPLEGABLE -->
+    <script src="./js/desplegables.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+    <!-- CARGA DE JS -->
+
+    <script src="js/particles.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/tabs.js"></script>
+
+   
+
+    <!--Loader-->
+    <script type="module" src="./js/loader.js"></script>
+
+    <!--alert-->
+    <script src="./js/alert.js"></script>
+</body>
+
+</html>
