@@ -1,0 +1,313 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    cursor: url("../IMGS/cursor-centrex.png"), auto;
+}
+
+a {
+    cursor: url("../IMGS/mano-centrex.png"), auto;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* ESTILOS PARA LA BARRA DE NAVEGACIÓN */
+
+nav {
+    background: #000000;
+    height: 80px;
+    width: 100%;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 14px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+a.active,
+a:hover {
+    background: #ff0000;
+    transition: .5s;
+}
+
+.checkbtn {
+    font-size: 20px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+#logo {
+    padding-left: 50px;
+}
+
+#label.logo {
+    padding-top: 15px;
+}
+
+#img-logo {
+    padding-top: 15px;
+}
+
+@media (max-width: 952px) {
+    label.logo {
+        padding-left: 50px;
+    }
+    nav ul li a {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 858px) {
+    .checkbtn {
+        display: block;
+    }
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #383838;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a {
+        font-size: 20px;
+    }
+    a:hover,
+    a.active {
+        background: none;
+        color: #ff0000;
+    }
+    #check:checked~ul {
+        left: 0;
+    }
+}
+
+section {
+    height: calc(100vh - 80px);
+}
+
+
+/* ESTILOS PARA EL PIE DE PÁGINA 1 (GENERAL)*/
+
+#footer1 {
+    background-color: #383838;
+    display: flex;
+    flex-direction: nowrap;
+    justify-content: center;
+    font-family: roboto;
+    font-size: 17px;
+    color: white;
+    padding: 30px;
+}
+
+#footer-box1 {
+    border-width: 15px;
+    padding: 50px;
+    width: calc(100%/3);
+}
+
+#footer-box2 {
+    border-width: 15px;
+    border-right: 1px solid rgb(252, 252, 252);
+    padding: 50px;
+    width: calc(100%/3);
+    text-align: center;
+    color: white;
+}
+
+#footer-box2 a {
+    color: white;
+}
+
+#footer-box2 img {
+    width: 120px;
+    margin-top: 15px;
+}
+
+#footer-box3 {
+    padding: 50px;
+    width: calc(100%/3);
+}
+
+#footer-box3 a {
+    color: rgb(255, 255, 255) !important;
+}
+
+#footer-box3 a:hover {
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+#footer-box3 a:active {
+    background-color: rgb(0, 0, 0, 0) !important;
+}
+
+#footer-box3 i {
+    font-size: xx-large;
+    padding: 15px;
+}
+
+
+/* ESTILO RESPONSIVE PARA EL FOOTER 1 */
+
+@media (max-width: 768px) {
+    #footer1 {
+        display: flex;
+        flex-direction: Column;
+        justify-content: center;
+        flex-basis: auto;
+        flex-grow: 1;
+    }
+    #footer-box1 {
+        padding: 50px;
+        width: auto;
+    }
+    #footer-box2 {
+        padding: 50px;
+        width: auto;
+        border-width: 15px;
+        border-right: 1px solid rgba(255, 255, 255, 0) !important;
+    }
+    #footer-box3 {
+        border-width: 15px;
+        border-top: 1px solid rgb(252, 252, 252);
+        padding: 50px;
+        width: auto;
+    }
+}
+
+
+/* ESTILOS PARA EL PIE DE PÁGINA 2*/
+
+#footer2 {
+    background-color: #000000;
+    height: 100px;
+    display: flex;
+    flex-direction: nowrap;
+    justify-content: center;
+    font-family: roboto;
+    font-size: 17px;
+    color: white;
+    border-width: 15px;
+    border-top: 1px solid rgb(252, 252, 252);
+}
+
+#footer2 label {
+    height: 60px;
+    min-height: 60px;
+    margin-bottom: 60px;
+}
+
+
+/* ESTILO PARA BOTONES CENTREX */
+
+.btn-centrex {
+    font-family: montserrat;
+    font-size: 18px;
+    background-color: #ff0000;
+    border-radius: 5px;
+    border-color: white;
+    color: aliceblue;
+    width: 140px;
+}
+
+.btn-centrex {
+    font-family: montserrat;
+    font-size: 18px;
+    background-color: #ff0000;
+    border-radius: 5px;
+    border-color: rgba(255, 255, 255, 0);
+    color: aliceblue;
+    width: 140px;
+    height: 40px;
+}
+
+.btn-centrex:hover {
+    font-family: montserrat;
+    font-size: 18px;
+    background-color: #26ff09;
+    border-style: ridge;
+    border-radius: 5px;
+    border-color: #ff0000;
+    color: rgb(0, 0, 0);
+    width: 140px;
+    font-weight: 900;
+    height: 40px;
+}
+
+.btn-centrex:active {
+    font-family: montserrat;
+    font-size: 20px;
+    background-color: #c40505;
+    border-style: ridge;
+    border-radius: 5px;
+    border-color: #ff0000;
+    color: rgb(255, 255, 255);
+    width: 140px;
+    height: 40px;
+}
+
+
+/* ESTILO PARA LAS BARRAS DE TÍTULO */
+
+.barra-titulo {
+    float: calc(100%/2);
+    text-align: center;
+    justify-content: center;
+    background-image: url(../IMGS/background-titulo.png);
+    background-position: 0%;
+    background-size: cover;
+    display: flexbox;
+    flex-wrap: center;
+    justify-content: center;
+    height: 95px;
+    color: white;
+    text-shadow: 4px 4px #c40505;
+}
+
+.barra-titulo h1 {
+    margin-top: 10px;
+}
+
+.none {
+    height: 20px;
+    height: 20px;
+}

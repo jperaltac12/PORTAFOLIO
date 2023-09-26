@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background: linear-gradient(to right, #3521ed, #f42a2a);
+    font-size: larger;
+}
+
+h2 {
+    font-size: 40px;
+    color: #fff;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.tooltip {
+    background-color: orange;
+    font-size: 16px !important;
+}
+
+
+/*estilos mensajes*/
+
+.resultadoPr {
+    color: yellow;
+    font-size: 30px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+
+/*estilos tabla de datos quemados*/
+
+table {
+    border-collapse: collapse;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+    margin: 0 auto;
+    font-size: 30px;
+}
+
+th {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 auto;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.8);
+}
+
+th,
+td {
+    padding: 12px;
+    background-color: rgba(221, 15, 15, 0.2);
+    color: #fff;
+    text-align: center;
+}
+
+
+/* ********************************************** */
+
+@media (max-width: 576px) {
+    table {
+        font-size: 10px;
+    }
+    th {
+        font-size: 8px;
+        padding: 0;
+    }
+}

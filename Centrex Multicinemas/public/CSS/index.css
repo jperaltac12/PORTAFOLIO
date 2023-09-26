@@ -1,0 +1,246 @@
+* {
+    box-sizing: border-box;
+}
+
+.slideshow-container {
+    max-width: 1500px;
+    position: relative;
+    margin: auto;
+}
+
+.mySlides {
+    display: table-cell;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+.slider-principal {
+    background-color: black;
+    height: 450px;
+}
+
+.divisor {
+    height: 1px;
+    background-color: #353535;
+}
+
+.estrenos {
+    background-color: white;
+    display: flex;
+    flex-direction: nowrap;
+    justify-content: Space-between;
+    height: 150px;
+}
+
+#titulo-estrenos {
+    font-family: Montserrat;
+    margin-left: 120px;
+    margin-top: 5px;
+    width: 100%;
+    padding: 50px;
+}
+
+#slc-ubicacion {
+    width: 50%;
+    padding: 50px;
+    margin-top: 10px;
+}
+
+#slc-ubicacion select {
+    font-family: roboto;
+    font-size: 20px;
+    width: 120px;
+    margin-left: 15px;
+}
+
+#slc-ubicacion select option {
+    width: 50px;
+}
+
+#estrenos-cartelera {
+    display: flex;
+    flex-direction: nowrap;
+    justify-content: Space-between;
+    height: 400px;
+}
+
+.pelicula-estreno {
+    width: calc(100%/5);
+    font-family: roboto;
+    height: 310px;
+    background-color: #fafafa;
+    margin: 1rem;
+    padding: 1rem;
+    border: 2px solid #ff0000;
+    border-radius: 10px;
+    /* IMPORTANTE */
+    text-align: center;
+}
+
+.anuncios {
+    display: flex;
+    justify-content: center;
+}
+
+#caja-anuncio {
+    display: flex;
+    flex-direction: nowrap;
+    justify-content: Space-between;
+    border: 2px solid #ff0000;
+    border-radius: 10px;
+    height: 310px;
+    width: 97%;
+    justify-content: center;
+}
+
+#caja-anuncio p {
+    width: 50%;
+    margin-left: 100px;
+}
+
+#caja-anuncio h1 {
+    width: 40%;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+#caja-anuncio button {
+    margin-left: 100px;
+}
+
+@media (max-width: 858px) {
+    #estrenos-cartelera {
+        display: flex;
+        flex-direction: wrap;
+        flex-wrap: wrap;
+        justify-content: Space-between;
+        height: auto;
+    }
+    .pelicula-estreno {
+        width: calc(100%);
+        font-family: roboto;
+        height: 310px;
+        background-color: #fafafa;
+        margin: 1rem;
+        padding: 1rem;
+        border: 2px solid #ff0000;
+        border-radius: 10px;
+        /* IMPORTANTE */
+        text-align: center;
+    }
+    .slider-principal {
+        display: none;
+    }
+    #caja-anuncio {
+        display: flex;
+        flex-direction: wrap;
+        flex-wrap: wrap;
+        justify-content: Space-between;
+        border: 2px solid #ff0000;
+        border-radius: 10px;
+        height: 610px;
+        width: 93%;
+        justify-content: center;
+        margin-bottom: 100px;
+    }
+    #caja-anuncio p {
+        width: 50%;
+        margin-left: 100px;
+    }
+    #caja-anuncio h1 {
+        width: 40%;
+        margin-top: 50px;
+        margin-left: 100px;
+    }
+    #imagen-anuncio {
+        width: 300px;
+        margin-bottom: 25px;
+    }
+    .anuncios {
+        height: fit-content;
+    }
+    .estrenos {
+        background-color: white;
+        display: flex;
+        flex-direction: wrap;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: 300px;
+    }
+    #titulo-estrenos {
+        justify-content: left;
+        font-family: Montserrat;
+        margin-left: 0px;
+        margin-top: 100px;
+        padding: 0px;
+    }
+    #slc-ubicacion {
+        padding: 0px;
+        margin-top: 0px;
+    }
+}

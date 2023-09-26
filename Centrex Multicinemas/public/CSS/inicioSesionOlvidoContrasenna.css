@@ -1,0 +1,44 @@
+.formulario {
+    height: 500px;
+    width: 380px;
+    margin: auto;
+    margin-top: 100px;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 7px 13px 37px #000000;
+    padding: 20px 30px;
+    border-top: 4px solid #000000;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-bottom: 4px solid #000000;
+}
+
+.formulario i {
+    font-size: 50px;
+}
+
+.controles {
+    width: 100%;
+    margin-bottom: 50px;
+    padding: 11px 10px;
+    background: #f8f4f4;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.barra-titulos {
+    float: calc(100%/2);
+    text-align: center;
+    justify-content: center;
+    background-position: 0%;
+    background-size: cover;
+    display: flexbox;
+    flex-wrap: center;
+    justify-content: center;
+    height: 95px;
+    color: white;
+    text-shadow: 4px 4px #000000;
+}
+
+.stc-principal {
+    background-image: url(../IMGS/cintillo_centrex\ \(4\).png);
+}

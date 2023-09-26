@@ -1,0 +1,102 @@
+#btn-menu {
+    display: none;
+}
+
+.stc-principal {
+    height: 100%;
+    padding: 50px 100px 100px 100px;
+}
+
+.container-menu {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    transition: all 500ms ease;
+    opacity: 0;
+    visibility: hidden;
+}
+
+#btn-menu:checked~.container-menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+.cont-menu {
+    width: 100%;
+    max-width: 250px;
+    background: #1c1c1c;
+    height: 100vh;
+    position: relative;
+    transition: all 500ms ease;
+    transform: translateX(-100%);
+}
+
+#btn-menu:checked~.container-menu .cont-menu {
+    transform: translateX(0%);
+}
+
+.cont-menu nav {
+    transform: translateY(15%);
+}
+
+.cont-menu nav a {
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    color: #c7c7c7;
+    border-left: 5px solid transparent;
+    transition: all 400ms ease;
+}
+
+.cont-menu nav a:hover {
+    border-left: 5px solid #c7c7c7;
+    background: #1f1f1f;
+}
+
+.cont-menu label {
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.btn-menu i {
+    font-size: 50px;
+}
+
+.logo {
+    margin-left: 10px;
+}
+
+.barra-titulos {
+    float: calc(100%/2);
+    text-align: center;
+    justify-content: center;
+    background-image: url(../IMGS/cintillo_centrex\ \(2\).png);
+    background-position: 0%;
+    background-size: cover;
+    display: flexbox;
+    flex-wrap: center;
+    justify-content: center;
+    height: 95px;
+    color: white;
+    text-shadow: 4px 4px #64830f;
+}
+
+.barra-titulos h1 {
+    margin-top: 10px;
+}
+
+.menu {
+    display: inline-flex;
+    margin-left: 10px;
+}
+
+.logo {
+    margin-left: 10px;
+}

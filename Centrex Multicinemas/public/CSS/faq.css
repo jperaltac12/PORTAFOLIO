@@ -1,0 +1,63 @@
+body {
+    background-color: aliceblue;
+}
+
+.content {
+    width: 940px;
+    padding: 10px;
+    margin: auto;
+}
+
+.pregunta {
+    text-align: justify;
+    background-color: white;
+    padding: 10px;
+    margin-left: 35px;
+}
+
+body div p a {
+    text-decoration: none;
+}
+
+
+/* ESTILO PARA BOTONES CENTREX EN FAQ*/
+
+.btn-centrex-faq {
+    font-family: montserrat;
+    font-size: 14px;
+    background-color: #ff0000;
+    border-radius: 5px;
+    border-color: rgba(255, 255, 255, 0);
+    color: aliceblue;
+    width: 120px;
+    height: 30px;
+}
+
+.btn-centrex-faq:hover {
+    font-family: montserrat;
+    background-color: white;
+    border-style: ridge;
+    border-radius: 5px;
+    border-color: #ff0000;
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+}
+
+.btn-centrex-faq:active {
+    font-family: montserrat;
+    background-color: #c40505;
+    border-style: ridge;
+    border-radius: 5px;
+    border-color: #ff0000;
+    color: rgb(255, 255, 255);
+}
+
+.titulo-faq {
+    height: 55px;
+    align-content: center;
+    text-align: center;
+}
+
+#espacio-faq {
+    height: 100px;
+}

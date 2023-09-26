@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.barra-titulo {
+    background-color: #ff0000;
+    height: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.img_container {
+    background-image: url("../IMGS/registro-usuario.png");
+    background-repeat: no-repeat;
+}
+
+.seccion_registrar p {
+    text-align: center;
+}
+
+.seccion_registrar #tipo_usuario {
+    width: 100%;
+    text-align: center;
+}
+
+#tipo_usuario select {
+    border-radius: 10px;
+    width: 200px;
+    margin-left: 55px;
+    height: 25px;
+    text-align: center;
+    /*border-style: solid;*/
+    /*border-color: #383838;*/
+}
+
+#identificacion-id {
+    width: 100%;
+    text-align: center;
+}
+
+#identificacion-id input {
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+    margin-left: 30px;
+    height: 25px;
+    /*border-style: solid;*/
+    /*border-color: #383838;*/
+}
+
+#primer_nombre {
+    width: 100%;
+    text-align: center;
+}
+
+#primer_nombre input {
+    border-radius: 10px;
+    width: 200px;
+    margin-left: 59px;
+    text-align: center;
+    height: 25px;
+    /*border-style: solid;*/
+    /*border-color: #383838;*/
+}
+
+#segundo_nombre {
+    width: 100%;
+    text-align: center;
+}
+
+#segundo_nombre input {
+    border-radius: 10px;
+    width: 200px;
+    margin-left: 50px;
+    text-align: center;
+    height: 25px;
+    /*border-style: solid;*/
+    /*border-color: #383838;*/
+}
+
+#primer_apellido {
+    width: 100%;
+    text-align: center;
+}
+
+#primer_apellido input {
+    border-radius: 10px;
+    width: 200px;
+    margin-left: 64px;
+    text-align: center;
+    height: 25px;
+    /*border-style: solid;*/
+    /*border-color: #383838;*/
+}
+
+#segundo_apellido {
+    width: 100%;
+    text-align: center;
+}
+
+#segundo_apellido input {
+    border-radius: 10px;
+    width: 200px;
+    margin-left: 55px;
+    text-align: center;
+    height: 25px;
+    /*border-style: solid;*/
+    /*border-color: #383838;*/
+}
+
+#correo_electronico {
+    width: 100%;
+    text-align: center;
+}
+
+#correo_electronico input {
+    border-radius: 10px;
+    width: 200px;
+    margin-left: 43px;
+    text-align: center;
+    height: 25px;
+    /*border-style: solid;*/
+    /*border-color: #383838;*/
+}
+
+#fecha_nacimiento {
+    width: 100%;
+    text-align: center;
+}
+
+#fecha_nacimiento input {
+    border-radius: 10px;
+    width: 200px;
+    margin-left: 21px;
+    text-align: center;
+    height: 25px;
+    /*border-style: solid;*/
+    /*border-color: #383838;*/
+}
+
+#nombre_usuario {
+    width: 100%;
+    text-align: center;
+}
+
+#nombre_usuario input {
+    border-radius: 10px;
+    width: 200px;
+    margin-left: 34px;
+    text-align: center;
+    height: 25px;
+    /*border-style: solid;*/
+    /*border-color: #383838;*/
+}
+
+#btn-registrar {
+    width: 76%;
+    text-align: center;
+    height: 33px;
+    background-color: #ff0000;
+    color: #ffffff;
+    font-size: 16px;
+    margin-left: 67px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #383838;
+}
+
+#caja-registro {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    height: 700px;
+    width: 100%;
+}
+
+#caja-izq {
+    width: calc(100%/2);
+    padding: 3%;
+}
+
+#caja-der {
+    width: calc(100%/2);
+    background-image: url(../IMGS/registro.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#caja-der h2 {
+    font-family: montserrat;
+    font-weight: lighter;
+    font-size: 17px;
+    border-radius: 7px;
+    background-color: black;
+    margin-top: 11%;
+    margin-bottom: 0%;
+    color: white;
+    padding: 3%;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+}
+
+.error-input {
+    border: 2px solid red;
+}

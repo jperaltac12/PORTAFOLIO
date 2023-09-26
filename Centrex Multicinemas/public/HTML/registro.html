@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>CENTREX MULTICINEMAS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/registro.css">
+    <link rel="stylesheet" href="../CSS/general.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <!-- INICIA MENÚ DE INICIO CENTREX -->
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+            <label id="logo"><img id= "img-logo" src="../IMGS/logo-centrex.png" alt=""></label>
+            <ul>
+                <li><a href="../HTML/index.html">Inicio</a></li>
+                <li><a href="../HTML/corporativo.html">Corporativo</a></li>
+                <li><a href="../HTML/cartelera.html">Cartelera</a></li>
+                <li><a href="../HTML/cines.html">Cines</a></li>
+                <li><a href="../HTML/contacto.html">Contacto</a></li>
+                <li><a href="../HTML/faq.html">FAQ</a></li>
+                <li><a class="active" href="../HTML/registro.html"><i class="fas fa-user-plus"></i> Registro</a></li>
+                <li><a href="../HTML/iniciosesion.html"><i class="fas fa-user-check"></i> Inicio de Sesión</a></li>
+            </ul>
+        </nav>
+        <!-- FINALIZA MENÚ DE INICIO CENTREX -->
+    </header>
+
+
+    <main>
+        <!-- INICIO TÍTULO DE SECCIÓN -->
+        <section class=barra-titulo>
+            <div class="none"></div>
+            <div>
+                <h1>REGISTRO DE USUARIO NUEVO</h1>
+            </div>
+            <div class="none"></div>
+        </section>
+        <!-- FINALIZA TÍTULO DE SECCIÓN -->
+
+        <section id="caja-registro">
+
+            <!--Todos los IDs lleval el mismo nombre que los IDs del form solo que con guíon bajo-->
+            <div id="caja-izq">
+                <section class="seccion_registrar">
+                    <form id="frm-registro">
+                        <p>Por favor completa el siguiente formulario para que seas parte de la familia de CENTREX Multicinemas.</p><br>
+                        <h6>Nota: El símbolo (*) denota un espacio requerido. No se puede registrar un usuario sin completar todos los espacios requeridos.</h6>
+                        <br>
+                        <br>
+                        <div id="tipo_usuario">
+                            <label for="tipo-usuario">*Tipo de Usuario: </label>
+                            <select id="tipo-usuario" required>
+                                <option selected disabled>Seleccionar</option>
+                                <option value="Superadministrador">Superadministrador</option>
+                                <option value="Jefe de Soporte">Jefe de Soporte</option>
+                                <option value="Cliente">Cliente</option>
+                            </select>
+                        </div>
+                        <br>
+                        <div id="identificacion-id">
+                            <label for="identificacion">*No. Indentificación: </label>
+                            <input type="text" id="identificacion" placeholder="0-0000-0000" required>
+                        </div>
+                        <br>
+                        <div id="primer_nombre">
+                            <label for="primer-nombre">*Primer nombre: </label>
+                            <input type="text" id="primer-nombre" required>
+                        </div>
+                        <br>
+                        <div id="segundo_nombre">
+                            <label for="segundo-nombre">Segundo nombre: </label>
+                            <input type="text" id="segundo-nombre" placeholder="Opcional">
+                        </div>
+                        <br>
+                        <div id="primer_apellido">
+                            <label for="primer-apellido">*Primer apellido: </label>
+                            <input type="text" id="primer-apellido" required>
+                        </div>
+                        <br>
+                        <div id="segundo_apellido">
+                            <label for="segundo-apellido">Segundo apellido: </label>
+                            <input type="text" id="segundo-apellido" placeholder="Opcional">
+                        </div>
+                        <br>
+                        <div id="correo_electronico">
+                            <label for="correo-electronico">*Correo electrónico: </label>
+                            <input type="email" id="correo-electronico" required>
+                        </div>
+                        <br>
+                        <div id="fecha_nacimiento">
+                            <label for="fecha-nacimiento">*Fecha de nacimiento: </label>
+                            <input type="date" id="fecha-nacimiento" required>
+                        </div>
+                        <br>
+                        <div id="nombre_usuario">
+                            <label for="nombre-usuario">*Nombre de usuario: </label>
+                            <input type="text" id="nombre-usuario" required>
+                        </div>
+                        <br>
+                        <!-- <div id="foto_perfil">
+                    <label for="foto-perfil">Foto de perfil: </label>
+                    <input type="image" id="foto-perfil">
+                </div>-->
+                        <div id="boton_registrar">
+                            <input type="button" id="btn-registrar" value="Registrar">
+                        </div>
+                    </form>
+                </section>
+            </div>
+
+            <div id="caja-der">
+                <H2>¡Estamos muy felices de que seas parte de nuestra familia!</H2>
+            </div>
+
+        </section>
+
+
+
+
+
+        <!-- FINALIZA EL CONTENIDO PRINCIPAL -->
+    </main>
+
+    <!-- INICIA PIE DE PÁGINA -->
+    <footer id="footer1">
+        <div id="footer-box1">CENTREX Multicinemas, S.A. <br>Todos los derechos reservados.<br> San José, Costa Rica. <br>Llámenos a nuestro call center: 4000-3950.<br><br> Condiciones de Uso y Políticas de privacidad</div>
+        <div id="footer-box2">Sitio creado por <a href="../HTML/webexperts.html">Web Experts S.A.</a><br>
+            <div id=image-we> <img src="../IMGS/logo-webexperts.png" alt=""></div>
+        </div>
+        <div id="footer-box3">Nuestras Redes Sociales: <br>
+
+            <a href="https://www.facebook.com/ "><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/ "><i class="fab fa-instagram-square"></i></a>
+            <a href="https://twitter.com/ "><i class="fab fa-twitter"></i></a>
+
+        </div>
+
+    </footer>
+
+    <footer id="footer2">
+        <div>
+            <label id="logo"><img id= "img-logo" src="../IMGS/logo-centrex.png" alt=" "></label>
+        </div>
+    </footer>
+    <!-- FINALIZA PIE DE PÁGINA -->
+
+</body>
+
+<!-- ENLACES A SCRIPTS -->
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="../JS/registro.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="../JS/usuarioServicio.js"></script>
+
+</html>

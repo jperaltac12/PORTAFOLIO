@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>CENTREX MULTICINEMAS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../CSS/inicioSesionGestionPerfil.css">
+    <link rel="stylesheet" href="../CSS/general.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <!-- INICIA MENÚ DE INICIO CENTiniciosesiongestiondesalas.htmlREX -->
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+            <label id="logo"><img id= "img-logo" src="../IMGS/logo-centrex.png" alt=""></label>
+            <ul>
+                <li><a href="../HTML/index.html">Inicio</a></li>
+                <li><a href="../HTML/corporativo.html">Corporativo</a></li>
+                <li><a href="../HTML/cartelera.html">Cartelera</a></li>
+                <li><a href="../HTML/cines.html">Cines</a></li>
+                <li><a href="../HTML/contacto.html">Contacto</a></li>
+                <li><a href="../HTML/faq.html">FAQ</a></li>
+                <li><a href="../HTML/registro.html"><i class="fas fa-user-plus"></i> Registro</a></li>
+                <li><a class="active" href="../HTML/iniciosesion.html"><i class="fas fa-user-check"></i> Inicio de Sesión</a></li>
+            </ul>
+        </nav>
+        <!-- FINALIZA MENÚ DE INICIO CENTREX -->
+    </header>
+    <main>
+        <!-- INICIO TÍTULO DE SECCIÓN -->
+        <section class=barra-titulo>
+            <div class="none"></div>
+            <div>
+                <h1>GESTIÓN DE PERFIL</h1>
+            </div>
+            <div class="none"></div>
+        </section>
+
+        <div class="menu">
+            <div class="btn-menu">
+                <label for="btn-menu"><i class="fas fa-bars"></i></label>
+            </div>
+            <div class="logo">
+                <h1>Menu</h1>
+            </div>
+        </div>
+
+
+
+        <section class=modificar-imagen-perfil>
+            <div id="boton-volver-perfil">
+                <a href="../HTML/iniciosesiongestiondeperfil.html">Volver</a>
+            </div>
+            <div id="foto-de-perfil">
+                <img src="../imgs/imagen.perfil.png" alt="">
+            </div>
+            <div id="cambiar-foto-de-perfil">
+                <div class="sct_boton">
+                    <button type="button" class="boton-editar-usuario">Editar foto de perfil</button>
+                </div>
+                </form>
+            </div>
+        </section>
+        <section class=modificar-datos-perfil>
+            <br>
+            <form action="">
+                <div id="nombre-apellido">
+                    <label for="texto-nombre">Nombre </label>
+                    <label for="texto-apellido">Apellidos </label>
+                    <br><br>
+                    <input type="text" id="texto-nombre" placeholder="Jose" required>
+                    <input type="text" id="texto-apellido" placeholder="Aguilar Moreno" required>
+                </div>
+                <br>
+                <div id="nombre-apellido">
+                    <label for="texto-email">Email </label>
+                    <label for="texto-clave">Clave </label>
+                    <br><br>
+                    <input type="text" id="texto-email" placeholder="jose.am_87@gmail.com" required>
+                    <input type="text" id="texto-clave" placeholder="contraseña" required>
+                </div>
+                <br><br>
+                <div>
+                    <label>Seleccione su género:
+                        <select >
+                            <option>Masculino</option>
+                            <option>Femenino</option>
+                            <option>Otro</option>
+                        </select>
+                    </div>
+                        <div>
+                    <label for="txta-comentario">Dirección </label>
+                    <br><br>
+                    <textarea name="" id="area-comentario" cols="30" rows="10">Cuesta de Moras, Av. Central, Bella Vista, San José.</textarea>
+                </div>
+                <br>
+                <div id="boton-agregar-tarjeta">
+                    <label>Seleccione su metodo de pago:
+                        <select >
+                            <option>Tarjeta 1</option>
+                            <option>Tarjeta 2</option>
+                            <option>Tarjeta 3</option>
+                        </select>
+                    <button type="button" class="boton-agregar-tarjeta">Agregar tarjeta</button>
+                </div>
+                <br><br><br>
+                <div>
+                    <button type="button" id="boton-editar-usuario">Editar toda la informacion</button>
+                </div>
+            </form>
+        </section>
+
+        <section class="section"></section>
+
+         <!-- FINALIZA EL CONTENIDO PRINCIPAL -->
+        <!--INICIA MENU OCULTO	--------------->
+        <input type="checkbox" id="btn-menu">
+        <div class="container-menu">
+            <div class="cont-menu">
+                <nav>
+                    <a href="../HTML/inicioSesionBienvenida.html">Bienvenida</a>
+                    <a href="../HTML/inicioSesionGestiondeUsuarios.html">Gestion de Usuarios</a>
+                    <a href="../HTML/inicioSesionReportes.html">Reportes</a>
+                    <a href="../HTML/iniciosesiongestiondesalas.html">Gestión de salas</a>
+                    <a href="../HTML/iniciosesioncatalogodepeliculas.html">Catálogo de películas </a>
+                    <a href="../HTML/iniciosesiongestiondeperfil.html">Gestión de perfil</a>
+                    <a href="../HTML/iniciosesionhistorialdepeliculas.html">Historial de compras</a>
+                </nav>
+                <label for="btn-menu">✖️</label>
+                </div>
+                </div>
+                <!--FINALIZA  MENU OCULTO	--------------->
+
+    </main>
+
+    <!-- INICIA PIE DE PÁGINA -->
+    <footer id="footer1">
+        <div id="footer-box1">CENTREX Multicinemas, S.A. <br>Todos los derechos reservados.<br> San José, Costa Rica. <br>Llámenos a nuestro call center: 4000-3950.<br><br> Condiciones de Uso y Políticas de privacidad</div>
+        <div id="footer-box2">Sitio creado por <a href="../HTML/webexperts.html">Web Experts S.A.</a><br>
+            <div id=image-we> <img src="../IMGS/logo-webexperts.png" alt=""></div>
+        </div>
+        <div id="footer-box3">Nuestras Redes Sociales: <br>
+
+            <a href="https://www.facebook.com/ "><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/ "><i class="fab fa-instagram-square"></i></a>
+            <a href="https://twitter.com/ "><i class="fab fa-twitter"></i></a>
+
+        </div>
+
+    </footer>
+
+    <footer id="footer2">
+        <div>
+            <label id="logo"><img id= "img-logo" src="../IMGS/logo-centrex.png" alt=" "></label>
+        </div>
+    </footer>
+    <!-- FINALIZA PIE DE PÁGINA -->
+
+
+    <!-- ENLACES A SCRIPTS -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="../JS/ISPerfil.js"></script>
+</body>
+
+
+</html>

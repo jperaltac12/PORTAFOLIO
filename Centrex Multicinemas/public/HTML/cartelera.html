@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>CENTREX MULTICINEMAS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/cartelera.css">
+    <link rel="stylesheet" href="../CSS/general.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <!-- INICIA MENÚ DE INICIO CENTREX -->
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+            <label id="logo"><img id= "img-logo" src="../IMGS/logo-centrex.png" alt=""></label>
+            <ul>
+                <li><a href="../HTML/index.html">Inicio</a></li>
+                <li><a href="../HTML/corporativo.html">Corporativo</a></li>
+                <li><a class="active" href="../HTML/cartelera.html">Cartelera</a></li>
+                <li><a href="../HTML/cines.html">Cines</a></li>
+                <li><a href="../HTML/contacto.html">Contacto</a></li>
+                <li><a href="../HTML/faq.html">FAQ</a></li>
+                <li><a href="../HTML/registro.html"><i class="fas fa-user-plus"></i> Registro</a></li>
+                <li><a href="../HTML/iniciosesion.html"><i class="fas fa-user-check"></i> Inicio de Sesión</a></li>
+            </ul>
+        </nav>
+        <!-- FINALIZA MENÚ DE INICIO CENTREX -->
+    </header>
+
+
+    <main>
+        <!-- INICIO TÍTULO DE ESTRENOS DE SEMANA -->
+        <section class=barra-titulo>
+            <div class="none"></div>
+            <div>
+                <h1>CARTELERA</h1>
+            </div>
+            <div class="none"></div>
+        </section>
+
+        <!-- INICIO DE LA BARRA DE SELECCIÓN DE CARTELERA -->
+
+        <section class="barra-seleccion">
+            <div>
+                <i class="far fa-calendar-alt"></i>
+                <br> Fecha <br><br>
+                <input type="date" name="fecha">
+            </div>
+
+            <div>
+                <i class="far fa-map"></i>
+                <br> Ubicación <br><br>
+                <select name="slc-ubicacion">
+                <option value="value1" selected>Todas</option>
+                <option value="value2" >Escazú</option>
+                <option value="value2" >Curridabat</option>
+              </select>
+            </div>
+
+
+            <div>
+                <i class="fas fa-sliders-h"></i>
+                <br> Categorías <br><br>
+                <select name="slc-ubicacion">
+                <option value="value1" selected>Todas</option>
+                <option value="value2" >Acción</option>
+                <option value="value2" >Aventuras</option>
+                <option value="value2" >Ciencia Ficción</option>
+                <option value="value2" >Comedia</option>
+                <option value="value2" >Drama</option>
+                <option value="value2" >Fantasía</option>
+                <option value="value2" >Musical</option>
+                <option value="value2" >Suspenso</option>
+                <option value="value2" >Terror</option>
+                <option value="value2" >Infantiles</option>
+ 
+              </select>
+            </div>
+        </section>
+        <!-- FINALIZA LA BARRA DE SELECCIÓN DE CARTELERA -->
+
+
+        <!-- INICIA LA MUESTRA DE PELÍCULAS -->
+
+        <section class="titulo-resultados">
+            <div>
+                <p>Tenemos las siguientes películas para el rango de fechas y ubicación seleccionadas. Selecciona un horario para reservar:</p>
+            </div>
+        </section>
+
+        <section class="peliculas-resultados">
+            <div id="pelicula-filtrada">
+                <div><img src="../IMGS/pelicula-estreno1.jpg" alt=""></div>
+                <div id="contenido-filtrada">
+                    <h1>RON DA ERROR</h1><br>
+                    <P>Ambientada en un mundo donde los robots se han convertido en los mejores amigos de los niños, Ron's Gone Wrong cuenta la historia de Barney, un niño de 11 años que descubre que su amigo robot no funciona del todo porque ha sido dañado
+                        durante el transporte para su entrega.</P>
+                    <br><a href="../HTML/reservacion.html"><button id="btn-horario">13:00</button></a> &nbsp <a href="../HTML/reservacion.html"><button id="btn-horario">14:00</button></a> &nbsp <a href="../HTML/reservacion.html"><button id="btn-horario">16:00</button></a>
+                    <BR><button></button><br>
+                    <a href="../HTML/carteleraComentarios.html"><button id="btn-calificaciones"><i class="fas fa-thumbs-up"></i>&nbspCALIFICACIONES Y RESEÑAS</button></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="peliculas-resultados">
+            <div id="pelicula-filtrada">
+                <div><img src="../IMGS/pelicula-estreno2.jpg" alt=""></div>
+                <div id="contenido-filtrada">
+                    <h1>MUESTRAME AL PADRE</h1><br>
+                    <P>Todos tenemos una historia paterna única, que positiva o dolorosa, siempre afecta profundamente el centro de nuestra identidad y la dirección de nuestras vidas. A través de cinco historias verdaderas, MUÉSTRAME AL PADRE de los Hermanos
+                        Kendrick, es una travesía cinematográfica que nos lleva a pensar de manera diferente sobre cómo vemos a nuestro padre terrenal y cómo nos relacionamos personalmente con Dios. MUÉSTRAME AL PADRE es el primer documental de los hermanos
+                        Kendrick, creadores de CUARTO DE GUERRA, VENCEDOR, A PRUEBA DE FUEGO Y RETO DE VALIENTES.</P>
+                    <br><a href="../HTML/reservacionb.html"><button id="btn-horario">9:00</button></a> &nbsp <a href="../HTML/reservacionb.html"><button id="btn-horario">13:00</button></a> &nbsp <a href="../HTML/reservacionb.html"><button id="btn-horario">17:00</button></a>
+                    <BR><button></button><br>
+                    <button id="btn-calificaciones"><i class="fas fa-thumbs-up"></i>&nbspCALIFICACIONES Y RESEÑAS</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <footer id="footer1">
+        <!-- INICIA PIE DE PÁGINA -->
+        <div id="footer-box1">CENTREX Multicinemas, S.A. <br>Todos los derechos reservados.<br> San José, Costa Rica. <br>Llámenos a nuestro call center: 4000-3950.<br><br> Condiciones de Uso y Políticas de privacidad</div>
+        <div id="footer-box2">Sitio creado por <a href="../HTML/webexperts.html">Web Experts S.A.</a><br>
+            <div id=image-we> <img src="../IMGS/logo-webexperts.png" alt=""></div>
+        </div>
+        <div id="footer-box3">Nuestras Redes Sociales: <br>
+
+            <a href="https://www.facebook.com/ "><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/ "><i class="fab fa-instagram-square"></i></a>
+            <a href="https://twitter.com/ "><i class="fab fa-twitter"></i></a>
+
+        </div>
+
+    </footer>
+
+    <footer id="footer2">
+        <div>
+            <label id="logo"><img id= "img-logo" src="/IMGS/logo-centrex.png" alt=" "></label>
+        </div>
+        <!-- FINALIZA PIE DE PÁGINA -->
+    </footer>
+
+
+</body>
+
+<!-- ENLACES A SCRIPTS -->
+<script src="../JS/colapsar-faq.js "></script>
+
+</html>

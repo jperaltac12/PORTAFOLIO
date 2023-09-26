@@ -1,0 +1,23 @@
+@media (max-width:768px) {
+    .mediap {
+        margin-right: auto !important;
+        margin-left: auto !important;
+    }
+    .banner-section {
+        height: calc(50vh);
+        padding: none;
+        margin: none;
+    }
+    .titulo {
+        font-size: 2rem;
+        margin-top: 3px;
+    }
+}
+
+@media (min-width:768px)and (max-width:900px) {
+    .banner-section {
+        height: calc(60vh);
+        padding: none;
+        margin: none;
+    }
+}

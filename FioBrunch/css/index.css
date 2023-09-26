@@ -1,0 +1,111 @@
+/*********************  ENCABEZADO BANNER WEB INICIAL ******************************/
+
+body {
+    font-family: 'Bevan', cursive;
+}
+
+.navbar {
+    padding-top: 5px;
+    /*margin: 10px;*/
+    padding-bottom: 5px;
+    letter-spacing: 3px;
+    /*background-color: rgba(255, 255, 255);*/
+    /*box-shadow: 5px 5px 8px rgb(241, 223, 185);*/
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.9rem;
+    background-image: url('../imagenes/plantbanner2.jpg');
+    background-size: cover;
+}
+
+ul li a {
+    margin: 5px;
+}
+
+.contacto:hover {
+    transform: scale(1.3);
+    transform: 1;
+}
+
+.optmenu:hover {
+    color: rgb(207, 129, 77) !important;
+    transition: all 2s solid;
+}
+
+.navbar a {
+    color: rgb(127, 78, 45);
+}
+
+.banner-section {
+    letter-spacing: 3px;
+    display: flex;
+    align-items: flex-start;
+    background-size: cover;
+    /*control altura del banner*/
+    height: calc(100vh);
+    background-image: url('../imagenes/bannerP.jpg');
+    background-blend-mode: multiply;
+    box-shadow: inset 0 0 0 3000px rgba(0, 0, 0, 0.1);
+}
+
+.bannerparallax {
+    letter-spacing: 5px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+    /*control altura del banner*/
+    height: calc(40vh);
+    background-position: center;
+    background-image: url('../imagenes/comida.jpg');
+    background-color: rgb(119, 90, 44);
+    background-blend-mode: multiply;
+    box-shadow: inset 0 0 0 1000px rgba(109, 108, 107, 0.015);
+}
+
+
+/*********************  PERSONALIZACION MENU HAMBURGUESA ******************************/
+
+.navbar-toggler {
+    background-color: #a6a9ada9;
+    border: 3px solid #fff;
+    color: rgb(127, 78, 45);
+}
+
+.navbar-toggler:hover {
+    background-color: #d6dbe3;
+}
+
+
+/*********************  SCROLLTOP ******************************/
+
+.goto-top {
+    position: fixed;
+    bottom: 65px;
+    right: 20px;
+    width: 75px;
+    height: 50px;
+    color: rgb(15, 198, 15);
+}
+
+.goto-top:hover {
+    color: rgb(20, 115, 20);
+}
+
+
+/*rayas horizontales*/
+
+
+/*http://hex2rgba.devoth.com/*/
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(127, 78, 45)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler .navbar-toggler-icon:hover {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(15, 198, 15)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler .custom-toggler {
+    background-color: #fff;
+}

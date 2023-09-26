@@ -1,0 +1,113 @@
+.barra-seleccion {
+    height: 200px;
+    background-color: rgb(224, 224, 224);
+    display: flex;
+    flex-direction: nowrap;
+    justify-content: center;
+}
+
+.barra-seleccion div {
+    width: calc(100%/3);
+    justify-content: center;
+    text-align: center;
+    border-radius: 5px;
+    border-color: rgba(255, 255, 255, 100);
+    border-style: ridge;
+    padding: 50px;
+}
+
+.barra-seleccion i {
+    font-size: 45px
+}
+
+.barra-seleccion input,
+select {
+    border-color: #ff0000;
+    border-radius: 7px;
+    border-width: 2px;
+}
+
+.titulo-resultados {
+    height: 50px;
+}
+
+.titulo-resultados p {
+    margin-top: 25px;
+    margin-left: 50px;
+    height: 50px;
+}
+
+.peliculas-resultados {
+    display: flex;
+    flex-direction: wrap;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#pelicula-filtrada {
+    justify-content: center;
+    text-align: center;
+    border-radius: 15px;
+    border-color: #ff0000;
+    border-style: ridge;
+    border-width: 2px;
+    height: fit-content;
+    padding: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    display: flex;
+    flex-direction: wrap;
+}
+
+#pelicula-filtrada div p {
+    width: 600px;
+    text-align: justify;
+    font-family: montserrat;
+}
+
+#pelicula-filtrada h1 {
+    text-align: left;
+}
+
+#pelicula-filtrada div {
+    padding: 25px;
+}
+
+#contenido-filtrada {
+    border-left: 2px dotted #ff0000;
+}
+
+#btn-horario {
+    background-color: black;
+    color: white;
+    font-family: montserrat;
+    width: 150px;
+    border-radius: 7px;
+    border-color: white;
+    height: 30px;
+}
+
+#btn-calificaciones {
+    width: 325px;
+    padding: 0px;
+    background-color: rgb(92, 51, 240);
+    color: white !important;
+    font-family: montserrat;
+    border-radius: 7px;
+    border-color: white;
+    height: 30px;
+}
+
+#btn-calificaciones:hover {
+    width: 325px;
+    padding: 0px;
+    background-color: rgb(53, 25, 158);
+    color: white !important;
+    font-family: montserrat;
+    border-radius: 7px;
+    border-color: white;
+    height: 30px;
+}

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>CENTREX MULTICINEMAS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/general.css">
+    <link rel="stylesheet" href="../CSS/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <!-- INICIA MENÚ DE INICIO CENTREX -->
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+            <label id="logo"><img id= "img-logo" src="../IMGS/logo-centrex.png" alt=""></label>
+            <ul>
+                <li><a class="active" href="../HTML/index.html">Inicio</a></li>
+                <li><a href="../HTML/corporativo.html">Corporativo</a></li>
+                <li><a href="../HTML/cartelera.html">Cartelera</a></li>
+                <li><a href="../HTML/cines.html">Cines</a></li>
+                <li><a href="../HTML/contacto.html">Contacto</a></li>
+                <li><a href="../HTML/faq.html">FAQ</a></li>
+                <li><a href="../HTML/registro.html"><i class="fas fa-user-plus"></i> Registro</a></li>
+                <li><a href="../HTML/iniciosesion.html"><i class="fas fa-user-check"></i> Inicio de Sesión</a></li>
+            </ul>
+        </nav>
+        <!-- FINALIZA MENÚ DE INICIO CENTREX -->
+    </header>
+
+    <main>
+        <!-- INICIA CARRUCEL DE IMÁGENES "SLIDER" -->
+
+        <section class=slider-principal>
+
+            <div>
+                <img src="../IMGS/slider2.png" style="width:100%">
+            </div>
+            <br>
+
+            <!-- Círculos de interacción -->
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+
+            <div>
+            </div>
+        </section>
+        <!-- FINALIZA CARRUCEL DE IMÁGENES "SLIDER" -->
+
+
+        <!-- INICIO TÍTULO DE ESTRENOS DE SEMANA -->
+        <section class=estrenos>
+            <div>
+                <h1 id="titulo-estrenos">ESTRENOS DE LA SEMANA</h1>
+            </div>
+            <div id="slc-ubicacion">
+                <label for="slc-ubicacion">Selecciona la ubicación de tu cine: </label>
+                <select name="slc-ubicacion">
+                <option value="value1" selected>Escazú</option>
+                <option value="value2" >Curridabat</option>
+              </select>
+            </div>
+        </section>
+        <!-- FINALIZA TÍTULO DE ESTRENOS DE SEMANA -->
+
+        <!-- INICIA CARTELERA DE ESTRENOS -->
+        <section id="estrenos-cartelera">
+            <div class="pelicula-estreno">
+                <img src="../IMGS/pelicula-estreno1.jpg" alt="">
+                <br><br>
+                <button class="btn-centrex">RESERVAR</button>
+            </div>
+            <div class="pelicula-estreno">
+                <img src="../IMGS/pelicula-estreno2.jpg" alt="">
+                <br><br>
+                <button class="btn-centrex">RESERVAR</button>
+            </div>
+            <div class="pelicula-estreno">
+                <img src="../IMGS/pelicula-estreno3.jpg" alt="">
+                <br><br>
+                <button class="btn-centrex">RESERVAR</button>
+            </div>
+            <div class="pelicula-estreno">
+                <img src="../IMGS/pelicula-estreno4.jpg" alt="">
+                <br><br>
+                <button class="btn-centrex">RESERVAR</button>
+            </div>
+            <div class="pelicula-estreno">
+                <img src="../IMGS/pelicula-estreno5.jpg" alt="">
+                <br><br>
+                <button class="btn-centrex">RESERVAR</button>
+            </div>
+        </section>
+        <!-- FINALIZA CARTELERA DE ESTRENOS -->
+
+        <!-- INICIA ANUNCIOS DE INTERÉS -->
+        <section class="anuncios">
+            <div id="caja-anuncio">
+                <div>
+                    <h1>CONFITERÍA</h1>
+                    <br>
+                    <p>Nuestras salas cuentan con un exclusivo servicio de confitería donde encontrarás irresistibles combos y promociones para disfrutar de tu película al máximo!</p>
+
+                </div>
+                <div>
+                    <img id="imagen-anuncio" src="../IMGS/anuncio-principal.png" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- FINALIZA ANUNCIOS DE INTERÉS -->
+    </main>
+
+    <footer id="footer1">
+        <!-- INICIA PIE DE PÁGINA -->
+        <div id="footer-box1">CENTREX Multicinemas, S.A. <br>Todos los derechos reservados.<br> San José, Costa Rica. <br>Llámenos a nuestro call center: 4000-3950.<br><br> Condiciones de Uso y Políticas de privacidad</div>
+        <div id="footer-box2">Sitio creado por <a href="../HTML/webexperts.html">Web Experts S.A.</a><br>
+            <div id=image-we> <img src="../IMGS/logo-webexperts.png" alt=""></div>
+        </div>
+        <div id="footer-box3">Nuestras Redes Sociales: <br>
+
+            <a href="https://www.facebook.com/ "><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/ "><i class="fab fa-instagram-square"></i></a>
+            <a href="https://twitter.com/ "><i class="fab fa-twitter"></i></a>
+
+        </div>
+
+    </footer>
+
+    <footer id="footer2">
+        <div>
+            <label id="logo"><img id= "img-logo" src="/IMGS/logo-centrex.png" alt=" "></label>
+        </div>
+        <!-- FINALIZA PIE DE PÁGINA -->
+
+    </footer>
+
+</body>
+
+<!-- ENLACES A SCRIPTS -->
+<script src="/JS/slider.js"></script>
+
+</html>

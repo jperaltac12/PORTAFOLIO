@@ -1,0 +1,92 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.appContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.titleContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 30px;
+    width: 90%;
+}
+
+.hudContainer{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cardsContainer{
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    border-style: inset;
+    padding: 10px 10px 10px 10px;
+}
+
+.clicksLBL{
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.timerLBL{
+    font-weight: bold;
+}   
+
+.resetBtn{
+    background-color: rgb(226, 6, 6);
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cardComponent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(226, 49, 43);
+    margin-top: 15px;
+}
+
+.cardComponent_hidden{
+    background-color: rgb(117, 4, 4);
+}
+.cardComponent_showing{
+    background-color: rgb(235, 105, 105);
+}
+.cardComponent_discovered{
+    background-color: rgb(139, 104, 7);
+}
+.gameCompleted{
+    margin-top: 30px;
+    text-align: center;
+    color: green;
+    font-size: 30px;
+}

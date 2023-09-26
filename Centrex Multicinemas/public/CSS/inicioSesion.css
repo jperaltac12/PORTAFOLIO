@@ -1,0 +1,77 @@
+main {
+    background-image: url("../IMGS/inicioSesion.jpg");
+    background-size: cover;
+}
+
+body {
+    color: white
+}
+
+.stc-principal {
+    height: 100%;
+    padding: 100px;
+}
+
+.formulario {
+    height: 400px;
+    width: 340px;
+    margin: auto;
+    margin-top: 100px;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 7px 13px 37px #000000;
+    padding: 20px 30px;
+    border-top: 4px solid red;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-bottom: 4px solid red;
+}
+
+.formulario i {
+    font-size: 50px;
+}
+
+.formulario h1 {
+    margin: 0px;
+    text-align: center;
+    height: 90px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid;
+    font-size: 23px;
+}
+
+.controles {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 11px 10px;
+    background: #f8f4f4;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#button {
+    width: 50%;
+    height: 35px;
+    border: none;
+    margin-top: 13px;
+    border: 1px solid grey;
+}
+
+.formulario p {
+    height: 40px;
+    text-align: center;
+    border-bottom: 1px solid;
+}
+
+.formulario a {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.formulario a:hover {
+    text-decoration: underline;
+}
+
+.error-input {
+    border: 2px solid red;
+}

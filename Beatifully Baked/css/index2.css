@@ -1,0 +1,168 @@
+        .titulo1 {
+            font-weight: bolder;
+        }
+        
+        .titulo2 {
+            font-size: 40px;
+            color: #fff;
+        }
+        
+        .titulo3 {
+            color: #000;
+            font-size: 50px;
+        }
+        
+        .espacio {
+            display: inline-block;
+            margin: 0px 15px 0px 15px;
+        }
+        
+        .banner1 {
+            background-image: url("../imagenes/banner1.jpg");
+            background-size: cover;
+            background-position: center;
+            /*efecto parallax*/
+            background-attachment: fixed;
+            /*sombra de profundidad para el banner*/
+            box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.3);
+            /*carga de la animacion */
+            animation: a 3s ease infinite alternate;
+        }
+        
+        .banner2 {
+            background-image: url("../imagenes/banner2.jpg");
+            background-position: center;
+            background-attachment: fixed;
+            box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+            /*carga de la animacion */
+            animation: d 3s ease infinite alternate;
+        }
+        /* -----------------------------------------------------------------------*/
+        /*infinite - alternate para que NO se detenga va y vuelve la animacion*/
+        /*alternate-reverse = alterna el mov y lo da alrevez*/
+        /*animation-iteration-count: 3;*/
+        /*Animacion del banner1 */
+        /*Los @keyframes son un conjunto de fotogramas clave que describen cómo se muestra cada elemento animado durante la secuencia de la animación.*/
+        /*background-position: permite posicionar una imagen de fondo dentro de su contenedor*/
+        /*posiciona la esquina derecha arriba de la imagen a una distancia de 0px en horizontal y a -300px en vertical */
+        /*ANIMACIONES KEYFRAMES*/
+        
+        @keyframes a {
+            0% {
+                background-position: 0 -1100px;
+            }
+            100% {
+                background-position: 0 0;
+            }
+        }
+        
+        @keyframes b {
+            0% {
+                background-position: 0 0;
+            }
+            100% {
+                background-position: -1000px 0;
+            }
+        }
+        
+        @keyframes c {
+            0% {
+                opacity: 0.5;
+                background-position: -2000px 0;
+            }
+            100% {
+                opacity: 1;
+                background-position: 0 0;
+            }
+        }
+        /* -----------------------------------------------------------------------*/
+        /*Animacion del banner2  */
+        
+        @keyframes d {
+            0% {
+                background-position: 0 -300px;
+            }
+            100% {
+                background-position: 0 0;
+            }
+        }
+        /* -----------------------------------------------------------------------*/
+        /* Seccion Service*/
+        
+        .efecto1 img {
+            transition: all ease-in-out 0.4s;
+        }
+        /*cuando el usuario pasa encima de la foto 
+        el mouse*/
+        
+        .efecto1:hover img {
+            transform: scale(1.4);
+        }
+        /* -----------------------------------------------------------------------*/
+        /*Seccion Categorias*/
+        
+        .efecto2 img {
+            filter: grayscale(100%);
+        }
+        
+        .efecto2:hover img {
+            transition: all ease 1s;
+            box-shadow: 0px 0px 40px #A3FF0F;
+            filter: grayscale(0%);
+            transform: rotate(-20deg);
+        }
+        /*Seccion Latest Recipes*/
+        
+        .efecto3 img {
+            transition: all 500ms ease-in-out;
+        }
+        
+        .efecto3:hover img {
+            transform: translate(0, -15px);
+        }
+        /*imagenes SECCION CATEGORIES*/
+        
+        .img1,
+        .img2,
+        .img3,
+        .img4 img {
+            width: 100% !important;
+            margin: 0 auto;
+            display: block;
+        }
+        /*
+        -----------------------------------------------------------------------*/
+        
+        .container-fluid1 {
+            padding-top: 210px;
+            padding-bottom: 200px;
+        }
+        
+        .container-fluid2 {
+            padding-top: 35px;
+            padding-bottom: 35px;
+        }
+        
+        .container-fluid3 {
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+        
+        .container-fluid4 {
+            padding-top: 140px;
+            padding-bottom: 140px;
+        }
+        
+        .container-fluid5 {
+            padding-top: 100px;
+            padding-bottom: 100px;
+        }
+        
+        .container-fluid6 {
+            padding-top: 0px;
+            padding-bottom: 30px;
+        }
+        
+        .fondo1 {
+            background-color: #E5D96B;
+        }

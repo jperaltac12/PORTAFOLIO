@@ -1,0 +1,268 @@
+#particles-js {
+    /*Background image es para banners*/
+    background-image: url("../imagenes/portafoliobg.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+    background-blend-mode:multiply;
+    box-shadow: inset 0 0 0 1250px rgba(0, 0, 0, 0.4);
+    position: relative;
+}
+.contenido {
+    position: absolute;
+}
+main{
+    font-family: 'Mukta', sans-serif;
+    color: #fff;
+}
+
+.nav-tabs{
+    border-top: 1px solid #dee2e6;
+}
+.tablinks{
+    font-size: 1.5rem;
+}
+
+.container-fluid {
+    padding: 0 0 0 0;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.fst-italic{
+    font-style: italic;
+}
+
+.espacio {
+    display: inline-block;
+    margin: 0px 15px 0px 15px;
+}
+
+hr{
+    color: #fff;
+}
+/* controla el contenido de cada pestaña tab */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 2px solid #ccc;
+    border-top: none;
+}
+
+ul{
+    list-style-image: url('../imagenes/right.png');
+}
+.animacion1:hover i::before {
+    transition: all 1s ease-in;
+    color: #0d5ace;
+}
+.animacion2:hover i::before {
+    transition: all 1s ease-in;
+    color: #3986eb;
+}
+
+.animacion3:hover i::before {
+    transition: all 1s ease-in;
+    color: #891194;
+}
+
+/* propiedades de la caja del tabulador */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  /*color de la barra principal del tabulador*/
+  /*background-color: #f1f1f1;*/
+}
+
+
+
+/* controla propiedades de los TABS */
+.tab button {
+  background-color: inherit;
+  float: center;
+  color:#ffff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* controla el color sobre los TABS */
+.tab button:hover {
+  background-color: rgba(101, 104, 101, 0.692);
+  color:#fff;
+}
+
+/* controla el color activo de los TABS */
+.tablinks.active {
+  background-color: #ffffff5c !important; 
+  color:#6c757d !important;
+}
+
+/*color de los botones*/
+.btn-info{
+    background-image:linear-gradient(to left, #12CBC4, #0652DD, #12CBC4) !important; 
+    padding: 13px;
+    border: none;
+    transition: 0.6s;
+    background-size: 200%;
+}
+
+.btn:hover{
+    background-position: right;
+}
+
+/* El efecto de desvanecimiento tarda 1 segundo */
+.tabcontent {
+  animation: efect1 2s; 
+}
+@keyframes efect1 {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+/*Linea de tiempo ABOUT tab*/
+
+.contents{
+  padding: 0px 35px;
+  border-left: 2px solid #bababa;  
+}
+
+.box{
+    position: relative;
+    padding: 20px;
+    border: 1px solid #eaeaea;
+    background-color: #fff;
+    cursor: pointer;
+    transition: all 0.4s;
+    margin-bottom: 20px;
+}
+
+.box:hover{
+    box-shadow: 0px 3px 12px 0px #ccc;
+    border: 1px solid transparent;
+}
+
+.box::before{
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    right: calc(100% + 21px);
+    top: 0;
+    background-color: #17a2b8;
+    border: 2px solid white;
+}
+
+.box h4{
+    position: relative;
+    color: #17a2b8;
+}
+
+.box h3{
+    padding: 10px 0px 6px;
+}
+
+.box p {
+    line-height: 2;
+}
+
+.box ul li {
+    line-height: 2;
+}
+
+@media (max-width: 1300px){
+    .responsive{
+        grid-template-columns: 1fr;
+    }
+}
+
+.list{
+    list-style-position: outside;
+}
+
+
+/*PRELOADER*/
+
+#preloader{
+    
+    background: 
+        url(../portfolioLoader.png) no-repeat center,
+        linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+        
+    height: 100vh;
+    width: 100%;
+    align-items:center;
+    justify-content: center;
+    z-index: 100;
+    opacity: 1;
+    transition: 2s opacity ease-in;  
+    display: flex;
+   
+    
+}
+  
+#preloader.hidden {
+    opacity: 0;
+}
+
+.under{
+    bottom: 30%;
+    left:50%;
+    position:absolute;
+    transform: translate(-60%, -0%);
+}
+
+.message{
+    animation: message 1s alternate infinite ease-in-out;
+}
+
+@keyframes message{
+    0%{
+        opacity: 0.2;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+/*PRELOADER ENDS*/
+
+/*ALERT*/
+.alert{
+    
+    position: absolute;
+    bottom: 5%;
+    left: 37%;
+    letter-spacing: 1px;
+    border-left: 8px solid #155724;
+}
+
+.animate{
+    animation: show_slide 1s ease forwards;
+}
+
+@keyframes show_slide{
+    0%{
+        transform: translateX(100%);
+    }
+    40%{
+        transform: translateX(-10%);
+    }
+    80%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(-10px);
+    }
+}
+
+.hide{
+    display: none !important;
+}
+/*ALERT ENDS*/
+
