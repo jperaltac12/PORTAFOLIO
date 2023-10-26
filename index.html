@@ -33,8 +33,25 @@
     <main id="particles-js" class="container-fluid">
         
         <div  class="container-fluid  contenido">
-            <div class="text-left  container-fluid mt-3 ms-3  slideInLeft" data-wow-duration="1000ms">
-                <a class=" text-white " id="r1" onclick="r1" style="cursor: pointer;"role="button"><i class="fas fa-info-circle fa-3x"></i></a>
+            <div class="text-left d-flex container-fluid justify-content-between mt-3 ms-3 me-3 pe-5 pt-5 ps-5 pb-5">
+                <a class="text-light" id="r1" onclick="r1" style="cursor: pointer;"role="button"><i class="fas fa-info-circle fa-3x shadowc rounded-circle" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-custom-class="custom-tooltip" title="General Information"></i></a>
+                <div class="text-center pb-5">
+                    <div class="espacio animacion1" data-wow-delay="2000ms">
+                        <a href="https://www.facebook.com/joeth.peraltacarrillo" target="blank1" aria-label="Facebook Account to know more about myself">
+                            <i class="fab fa-facebook fa-3x shadowc rounded" style="color:#fff"></i>
+                        </a>
+                    </div>
+                    <div class="espacio animacion2" data-wow-delay="2500ms">
+                        <a href="https://www.linkedin.com/in/joeth-peralta-246937121" target="blank2" aria-label="Visit my LinkedIn Professional account">
+                            <i class="fab fa-linkedin fa-3x shadowc rounded" style="color:#fff"></i>
+                        </a>
+                    </div>
+                    <div class="espacio animacion3" data-wow-delay="3000ms">
+                        <a href="https://github.com/jperaltac12" target="blank3" aria-label="Visit my repository in GitHub app">
+                            <i class="fab fa-github fa-3x shadowc rounded-circle" style="color:#fff"></i>
+                        </a>
+                    </div>      
+                </div>
             </div>    
             <div class="pt-5 pb-5 text-center">
                 <h1 style="font-family:'Dancing Script', cursive;">
@@ -496,23 +513,6 @@
                         <!--EXPERIENCE ENDS-->
                     </div>
                 </div>
-                <div class="text-center mb-3">
-                    <div class="espacio animacion1 wow tada" data-wow-delay="2000ms">
-                        <a href="https://www.facebook.com/joeth.peraltacarrillo" target="blank1" aria-label="Facebook Account to know more about myself">
-                            <i class="fab fa-facebook fa-4x" style="color:#fff"></i>
-                        </a>
-                    </div>
-                    <div class="espacio animacion2 wow tada" data-wow-delay="2500ms">
-                        <a href="https://www.linkedin.com/in/joeth-peralta-246937121" target="blank2" aria-label="Visit my LinkedIn Professional account">
-                            <i class="fab fa-linkedin fa-4x" style="color:#fff"></i>
-                        </a>
-                    </div>
-                    <div class="espacio animacion3 wow tada" data-wow-delay="3000ms">
-                        <a href="https://github.com/jperaltac12" target="blank3" aria-label="Visit my repository in GitHub app">
-                            <i class="fab fa-github fa-4x" style="color:#fff"></i>
-                        </a>
-                    </div>      
-                </div>
             </div>
         </div>
         <!--Alert--> 
@@ -548,7 +548,13 @@
     <script src="js/app.js"></script>
     <script src="js/tabs.js"></script>
 
-   
+    <!-- activacion del TOOLTIP -->
+    <script>
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function(tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+    </script>
 
     <!--Loader-->
     <script type="module" src="./js/loader.js"></script>
