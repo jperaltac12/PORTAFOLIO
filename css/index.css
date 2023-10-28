@@ -251,7 +251,7 @@ ul{
 /*ALERT*/
 .alert{
     border: none;
-    position: absolute;
+    position:fixed;
     bottom: 5%;
     left: 37%;
     letter-spacing: 1px;
