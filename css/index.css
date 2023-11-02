@@ -20,7 +20,6 @@ main{
 .custom-tooltip{
 	font-size: 16px !important;
     border-radius: 0.375rem;
-    background-color:  #17a2b8;
     padding-top: 0px;
     padding-bottom: 0px;
     line-height: 2;
@@ -73,15 +72,19 @@ ul{
 .animacion1:hover i::before {
     transition: all 1s ease-in;
     color: #0d5ace;
+    background-color: #fff;
 }
 .animacion2:hover i::before {
     transition: all 1s ease-in;
     color: #3986eb;
+    background-color: #fff;
 }
 
 .animacion3:hover i::before {
     transition: all 1s ease-in;
     color: #891194;
+    background-color: #fff;
+    border-radius: 60px;
 }
 
 /* propiedades de la caja del tabulador */

@@ -1,45 +1,36 @@
-@media (max-width: 575px) {
-    .fondo {
-        background-position: center;
+/*Celphones medium*/
+@media (max-width: 539px) {
+    .alert{
+        left: 5%;
     }
-    .bajarEfecto {
-        padding-bottom: 150px;
+
+    .under{
+        bottom: 25%;
     }
-    .bajarContenido {
-        padding-top: 100px;
+
+    .lottie{
+        width: 100% !important;
+        height: 100% !important;
     }
-    .boton1 {
-        margin: 0 0 0 0;
-    }
-    .boton2 {
-        margin: 0 0 0 0;
+    #r2{
+        margin-left: 0rem !important;
     }
 }
 
 
-/*Celulares modernos*/
+/*Modern Celphones*/
 
-@media (min-width: 576px) and (max-width:767px) {
-    .queryBoton1 {
-        padding-left: 60px;
+@media (min-width: 540px) and (max-width:767px) {
+    .alert{
+        left: 7%;
+        right: 5%;
     }
-    .queryBoton2 {
-        padding-right: 60px;
+    .under{
+        bottom: 21%;
     }
-    .fondo {
-        background-position: center;
-    }
-    .bajarContenido {
-        padding-top: 120px;
-    }
-    .bajarEfecto {
-        padding-bottom: 175px;
-    }
-    .boton1 {
-        margin: 0 0 0 0;
-    }
-    .boton2 {
-        margin: 0 0 0 0;
+    .lottie{
+        width: 80%  !important;
+        height: 80%  !important;
     }
 }
 
@@ -47,17 +38,16 @@
 /*Tablet*/
 
 @media (min-width: 768px) and (max-width:991px) {
-    .queryBoton1 {
-        padding-left: 150px;
+    .alert{
+        left: 7%;
+        right: 5%;
     }
-    .queryBoton2 {
-        padding-right: 150px;
+    .under{
+        bottom: 29%;
     }
-    .bajarContenido {
-        padding-top: 140px;
-    }
-    .bajarEfecto {
-        padding-bottom: 150px;
+    .lottie{
+        width: 70% !important;
+        height: 70% !important;
     }
 }
 
@@ -65,17 +55,16 @@
 /*Laptop*/
 
 @media (min-width: 992px) and (max-width:1199px) {
-    .queryBoton1 {
-        padding-left: 275px;
+    .alert{
+        left: 14%;
     }
-    .queryBoton2 {
-        padding-right: 275px;
+
+    .under{
+        bottom: 14%;
     }
-    .bajarContenido {
-        padding-top: 140px;
-    }
-    .bajarEfecto {
-        padding-bottom: 100px;
+    .lottie{
+        width: 50% !important;
+        height: 50% !important;
     }
 }
 
@@ -83,16 +72,15 @@
 /*XL*/
 
 @media (min-width: 1200px) {
-    .bajarContenido {
-        padding-top: 160px;
+    .alert{
+        left: 27%;
     }
-    .queryBoton1 {
-        padding-left: 350px;
+
+    .under{
+        bottom: 25%;
     }
-    .queryBoton2 {
-        padding-right: 350px;
-    }
-    .bajarEfecto {
-        padding-bottom: 100px;
+    .lottie{
+        width: 45% !important;
+        height: 45% !important;
     }
 }
