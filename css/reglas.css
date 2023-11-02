@@ -1,7 +1,38 @@
+/*Celphones Small*/
+@media (max-width: 320px) and (max-width:538px) {
+    .alert{
+        letter-spacing: 0px;
+        bottom: 1%;
+        font-size: calc(1rem + .3vw)!important;
+    }
+
+    .alert svg{
+        height: 3.5rem;
+        
+    }
+
+    .under{
+        bottom: 18% !important;
+    }
+
+    .lottie{
+        width: 100% !important;
+        height: 100% !important;
+    }
+    #r2{
+        margin-left: 0rem !important;
+    }
+}
 /*Celphones medium*/
 @media (max-width: 539px) {
     .alert{
         left: 5%;
+        bottom: 2%;
+    }
+
+    .alert svg{
+        height: 3rem;
+        
     }
 
     .under{
@@ -71,7 +102,7 @@
 
 /*XL*/
 
-@media (min-width: 1200px) {
+@media (min-width: 1200px) and (max-width:2559px){
     .alert{
         left: 27%;
     }
@@ -82,5 +113,21 @@
     .lottie{
         width: 45% !important;
         height: 45% !important;
+    }
+}
+
+/*XXL*/
+
+@media (min-width: 2560px) {
+    .alert{
+        left: 35%;
+    }
+
+    .under{
+        bottom: 25%;
+    }
+    .lottie{
+        width: 35% !important;
+        height: 35% !important;
     }
 }

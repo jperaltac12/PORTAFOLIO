@@ -25,6 +25,9 @@ main{
     line-height: 2;
 }
 
+.tooltip-inner{
+    border-right: 6px solid #17a2b8;
+}
 .shadowc{
     box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.6) !important;
     height: 2.9rem;
@@ -259,6 +262,7 @@ ul{
     left: 37%;
     letter-spacing: 1px;
     border-left: 6px solid #155724;
+    align-items: center;
 }
 
 .animate{
