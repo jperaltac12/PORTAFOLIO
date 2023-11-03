@@ -36,8 +36,13 @@ main{
     box-shadow: 0 1rem 3rem rgba(0, 0.9, 0, 0.9) !important;
 }
 
-.nav-tabs{
+.nav-item:hover{
     border-top: 1px solid #dee2e6;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.nav-tabs{
+    border-bottom: 0px solid !important;
 }
 .tablinks{
     font-size: 1.5rem;
