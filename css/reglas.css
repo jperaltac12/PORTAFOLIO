@@ -26,6 +26,25 @@
     .tabcontent{
         padding: 0px 0px 0px 0px !important;
     }
+    #r4{
+        margin: 0rem !important;
+    }
+    #r5{
+        margin: 1rem !important;
+        padding: 0rem !important;
+
+    }
+    #r5 ul li{
+        margin-right: 0.5rem !important;
+
+    }
+
+    #r5 ul{
+        padding-left: 1.4rem !important;
+    }
+    #r6{
+        padding: 0rem !important;
+    }
 }
 /*Celphones medium*/
 @media (min-width: 321px) and (max-width: 539px) {
@@ -49,6 +68,12 @@
     }
     #r2{
         margin-left: 0rem !important;
+    }
+    #r4{
+        margin: 0rem !important;
+    }
+    #r5{
+        margin: 1rem !important;
     }
 }
 
