@@ -30,9 +30,8 @@
         margin: 0rem !important;
     }
     #r5{
-        margin: 1rem !important;
         padding: 0rem !important;
-
+        width: 90% !important;
     }
     #r5 ul li{
         margin-right: 0.5rem !important;
@@ -44,6 +43,33 @@
     }
     #r6{
         padding: 0rem !important;
+    }
+
+    #r7{
+        margin: 1rem !important;
+        padding: 0rem !important;
+        height: 25% !important;
+    }
+    #r8{
+        display: block !important;
+    }
+    #r9{
+        margin: 1rem !important;
+        padding: 0rem !important;
+        text-align: center !important;
+    }
+    .contents{
+        padding: 0px 0px 0px 9px !important;
+    }
+
+    .box::before{
+        width: 20px;
+        height: 20px;
+        right: calc(100% + 1px);
+    }
+
+    .box{
+        padding: 5px !important;
     }
 }
 /*Celphones medium*/
