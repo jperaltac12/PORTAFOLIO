@@ -31,7 +31,7 @@
         margin: 0rem !important;
     }
     #r5{
-        padding: 0rem !important;
+        padding: 5px 0px 0px 0px !important;
         width: 90% !important;
         font-size: 0.9rem !important;
     }
@@ -44,7 +44,7 @@
         padding-left: 1.4rem !important;
     }
     #r6{
-        padding: 0rem !important;
+        padding: 10px 0px 0px 0px !important;
         font-size: 0.9rem !important;
     }
 
@@ -103,7 +103,40 @@
     }
     #r5{
         margin: 1rem !important;
+        width: 90% !important;
+        font-size: 0.9rem !important;
+        padding: 10px 0px 0px 0px !important;
     }
+    #r6{
+        padding: 0rem !important;
+        font-size: 0.9rem !important;
+    }
+    #r7{
+        margin: 1rem !important;
+        padding: 0rem !important;
+    }
+    .tabcontent{
+        padding: 0px 0px 0px 0px !important;
+    }
+    #r9{
+        margin: 1rem !important;
+        padding: 0rem !important;
+        text-align: center !important;
+    }
+    .contents{
+        padding: 0px 0px 0px 9px !important;
+    }
+
+    .box::before{
+        width: 20px;
+        height: 20px;
+        right: calc(100% + 1px);
+    }
+
+    .box{
+        padding: 5px !important;
+    }
+    
 }
 
 
