@@ -30,10 +30,14 @@ main{
 }
 .shadowc{
     box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.6) !important;
-    height: 2.9rem;
+    height: 2.6rem;
 }
 .shadowc:hover{
     box-shadow: 0 1rem 3rem rgba(0, 0.9, 0, 0.9) !important;
+}
+
+.fab{
+    line-height: 0.85;
 }
 
 .nav-item:hover{
@@ -77,20 +81,20 @@ hr{
 ul{
     list-style-image: url('../imagenes/right.png');
 }
-.animacion1:hover i::before {
+.animacion1:hover {
     transition: all 1s ease-in;
-    color: #0d5ace;
+    color: #0d5ace !important;
     background-color: #fff;
 }
-.animacion2:hover i::before {
+.animacion2:hover {
     transition: all 1s ease-in;
-    color: #3986eb;
+    color: #3986eb !important;
     background-color: #fff;
 }
 
-.animacion3:hover i::before {
+.animacion3:hover  {
     transition: all 1s ease-in;
-    color: #891194;
+    color: #891194 !important;
     background-color: #fff;
     border-radius: 60px;
 }

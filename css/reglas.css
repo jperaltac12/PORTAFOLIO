@@ -23,9 +23,28 @@
     }
     #r2{
         margin-left: 0rem !important;
+        padding-left: 2rem !important;
+        padding-right: 1rem !important;
+        justify-content: space-around !important;
+    }
+    #r2 .fa-3x{
+        font-size: 2rem;
+    }
+    .espacio{
+        margin: 0px 15px 0px 10px !important;
+    }
+
+    .shadowc{
+        height: 1.7rem !important;
     }
     .tabcontent{
         padding: 0px 0px 0px 0px !important;
+    }
+    .tab button{
+        padding: 10px 10px !important;
+    }
+    .tablinks{
+        font-size: 1.2rem !important;
     }
     #r4{
         margin: 0rem !important;
@@ -60,6 +79,11 @@
         margin: 1rem !important;
         padding: 0rem !important;
         text-align: center !important;
+    }
+
+    #r10{
+        margin: 0px 5px !important;
+        padding-top: 40px;
     }
     .contents{
         padding: 0px 0px 0px 9px !important;
@@ -97,6 +121,22 @@
     }
     #r2{
         margin-left: 0rem !important;
+        justify-content: space-around !important;
+    }
+    #r2 .fa-3x{
+        font-size: 2rem;
+    }
+    .espacio{
+        margin: 0px 15px 0px 10px !important;
+    }
+    .shadowc{
+        height: 1.7rem !important;
+    }
+    .tab button{
+        padding: 10px 10px !important;
+    }
+    .tablinks{
+        font-size: 1.2rem !important;
     }
     #r4{
         margin: 0rem !important;
