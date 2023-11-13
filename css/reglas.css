@@ -1,6 +1,13 @@
 
 /*Celphones Small*/
 @media (max-width: 320px) {
+    #preloader{
+        background:
+            url(../portfolioSmall.svg) no-repeat center ,
+            linear-gradient(90deg, #1CB5E0 0%, #000851 100%) !important;
+        
+    }
+
     .alert{
         letter-spacing: 0px;
         left: 5%;
@@ -14,7 +21,7 @@
     }
 
     .under{
-        bottom: 15% !important;
+        bottom: 18% !important;
     }
 
     .lottie{
@@ -101,6 +108,12 @@
 }
 /*Celphones medium*/
 @media (min-width: 321px) and (max-width: 539px) {
+    #preloader{
+        background:
+            url(../portfolioSmall.svg) no-repeat center ,
+            linear-gradient(90deg, #1CB5E0 0%, #000851 100%) !important;
+        
+    }
     .alert{
         left: 5%;
         bottom: 2%;
@@ -112,7 +125,7 @@
     }
 
     .under{
-        bottom: 25%;
+        bottom: 30%;
     }
 
     .lottie{
@@ -148,7 +161,7 @@
         padding: 10px 0px 0px 0px !important;
     }
     #r6{
-        padding: 0rem !important;
+        padding: 20px 0px 0px 0px !important;
         font-size: 0.9rem !important;
     }
     #r7{
